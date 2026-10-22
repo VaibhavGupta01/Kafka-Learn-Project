@@ -1,0 +1,18 @@
+###
+# curl -X POST http://localhost:8080/api/orders -H "Content-Type: text/plain" -d "order from spring 1"
+POST http://localhost:8080/api/orders
+Content-Type: text/plain
+
+order from spring 1 kafka up
+
+###
+# curl -X POST http://localhost:8080/api/orders -H "Content-Type: application/json" -d {"customerId": "cust-42", "product": "keyboard", "quantity": 2, "amount": 149.99}
+POST http://localhost:8080/api/orders
+Content-Type: application/json 
+
+{
+  "customerId": "cust-42",
+  "product": "keyboard",
+  "quantity": 2,
+  "amount": 149.99
+}
